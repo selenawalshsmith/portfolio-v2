@@ -1,12 +1,9 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+//import { useState } from "react";
+import About from "./components/About/About.tsx";
+import "./App.css";
 
-const App = ()=>{
-  return(
-    <h1>Hi</h1>
-  )
-}
+const App = () => {
+  return <About />;
+};
 
-export default App
+export default App;
