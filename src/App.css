@@ -1,21 +1,29 @@
-
 body {
   height: 100%;
   margin: 0;
   width: 100%;
   min-height: 100%;
   overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 div#root {
   background-color: #fcffff;
-  color: #004b49;
   height: 100%;
   position: absolute;
   left: 0;
   width: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: scroll;
   font-family: "roboto", sans-serif;
+}
+
+section {
+  width: 45rem;
+  margin: 12rem auto;
+}
+
+#section-container {
 }
 
 .dark-mode {
